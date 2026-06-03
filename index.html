@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" />
+  <title>Shryitha Suddala – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">SS</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#certifications" class="nav-link">Certifications</a></li>
+      <li><a href="#achievements" class="nav-link">Achievements</a></li>
+      <li><a href="#internships" class="nav-link">Internships</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== HOME ===== -->
+  <section class="section home-section" id="home">
+    <div class="home-bg-decor"></div>
+    <div class="home-content">
+      <p class="home-greeting animate-fade-up" style="animation-delay:0.1s">Hello, World!</p>
+      <h1 class="home-name animate-fade-up" style="animation-delay:0.25s">
+        I'm <em>Shryitha Suddala</em>
+      </h1>
+      <div class="home-subtitle animate-fade-up" style="animation-delay:0.4s">
+        <span class="typed-text" id="typedText"></span><span class="cursor">|</span>
+      </div>
+      <p class="home-tagline animate-fade-up" style="animation-delay:0.55s">
+        A passionate developer who loves building elegant solutions to complex problems.<br>
+        Dedicated to writing clean, efficient code and crafting meaningful user experiences.
+      </p>
+      <div class="home-actions animate-fade-up" style="animation-delay:0.7s">
+        <a href="https://drive.google.com/file/d/1fF_ihUireSo1hw-BW7EMB_pGCzic6ZVl/view?usp=sharing" class="btn-primary" download>
+          <i class="fas fa-download"></i> Download CV
+        </a>
+        <a href="#about" class="btn-outline">About Me</a>
+      </div>
+      <div class="social-icons animate-fade-up" style="animation-delay:0.85s">
+        <a href="https://wa.me/919059724872" target="_blank" title="WhatsApp" class="social-icon">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/suddala-shryitha-26a738295/" target="_blank" title="LinkedIn" class="social-icon">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/shryithasuddala" target="_blank" title="GitHub" class="social-icon">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://leetcode.com/u/udMA1w84iy/" target="_blank" title="LeetCode" class="social-icon leetcode-icon">
+          <!-- LeetCode custom SVG -->
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="home-photo-wrap animate-scale-in" style="animation-delay:0.3s">
+      <div class="home-photo-ring"></div>
+      <div class="home-photo-ring ring2"></div>
+      <div class="home-photo">
+        <img src="https://res.cloudinary.com/dtnmwdkou/image/upload/v1732447975/pandu_jxr8tv.jpg" alt="Shryitha Suddala" onerror="this.style.display='none';this.parentElement.classList.add('photo-placeholder')" />
+        <div class="photo-initials">SS</div>
+      </div>
+      <div class="badge badge-1">
+        <i class="fas fa-code"></i> Developer
+      </div>
+      <div class="badge badge-2">
+        <i class="fas fa-graduation-cap"></i> CGPA 9.544
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section about-section" id="about">
+    <div class="section-header">
+      <span class="section-label">Who I Am</span>
+      <h2 class="section-title">About Me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-photo-wrap">
+        <div class="about-photo-border"></div>
+        <div class="about-photo">
+          <img src="https://res.cloudinary.com/dtnmwdkou/image/upload/v1732447975/pandu_jxr8tv.jpg" alt="Shryitha Suddala" onerror="this.style.display='none';this.parentElement.classList.add('photo-placeholder')" />
+          <div class="photo-initials">SS</div>
+        </div>
+        <div class="about-stats">
+          <div class="stat-chip"><span>4+</span> Projects</div>
+          <div class="stat-chip"><span>9.544</span> CGPA</div>
+          <div class="stat-chip"><span>2</span> Internships</div>
+          <div class="stat-chip"><span>1</span> Patent</div>
+        </div>
+      </div>
+      <div class="about-text">
+        <p>Hi! I'm <strong>Shryitha Suddala</strong>, a highly motivated B.Tech Computer Science student from SR University, Warangal with a strong passion for technology and innovation.</p>
+        <p>I have hands-on experience in Python, Data Structures & Algorithms, Web Development, and AI-based systems. Passionate about building scalable applications, learning emerging technologies, and contributing to collaborative project execution.</p>
+        <p>I'm skilled in adapting to fast-paced environments, managing tasks efficiently, and developing real-world technical solutions through teamwork and structured execution. I've also co-invented an <strong>IoT-based Smart Medicine Bottle</strong> that's been filed as a patent.</p>
+        <p>When I'm not coding, I challenge myself on LeetCode and explore the latest in AI and cloud computing. I believe technology is not just about writing code — it's about building solutions that make a difference.</p>
+        <div class="about-contact-row">
+          <span><i class="fas fa-map-marker-alt"></i> Warangal, Telangana</span>
+          <span><i class="fas fa-envelope"></i> shryithasuddala@gmail.com</span>
+          <span><i class="fas fa-phone"></i> +91 9059724872</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+<section class="section education-section" id="education">
+  <div class="section-header">
+    <span class="section-label">My Journey</span>
+    <h2 class="section-title">Education</h2>
+  </div>
+
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <div class="timeline-date">2023 – 2027</div>
+        <h3>B.Tech – Computer Science & Engineering</h3>
+        <p class="timeline-inst">SR University, Hanumakonda, Warangal</p>
+        <div class="timeline-cgpa">CGPA: 9.544 / 10</div>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <div class="timeline-date">2021 – 2023</div>
+        <h3>Intermediate</h3>
+        <p class="timeline-inst">Sri Chaitanya Junior Kalasala, Hyderabad</p>
+        <div class="timeline-cgpa">Marks: 947 / 1000</div>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <div class="timeline-date">2020 – 2021</div>
+        <h3>SSC</h3>
+        <p class="timeline-inst">Sri Chaitanya High School, Hasanparthy</p>
+        <div class="timeline-cgpa">GPA: 10 / 10</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section skills-section" id="skills">
+    <div class="section-header">
+      <span class="section-label">What I Know</span>
+      <h2 class="section-title">Skills</h2>
+      <p class="section-sub">A curated set of technologies and tools I work with to build scalable, performant, and visually compelling applications.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <div class="skill-group-header"><i class="fas fa-code"></i> Languages</div>
+        <div class="skill-tags">
+          <span>Python</span><span>Java</span><span>SQL</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-header"><i class="fas fa-brain"></i> Data Science & AI</div>
+        <div class="skill-tags">
+          <span>Machine Learning</span><span>NLP</span><span>Statistical Analysis</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-header"><i class="fas fa-layer-group"></i> Frameworks & Tools</div>
+        <div class="skill-tags">
+          <span>TensorFlow</span><span>PyTorch</span><span>Scikit-learn</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-header"><i class="fas fa-chart-bar"></i> Visualization</div>
+        <div class="skill-tags">
+          <span>Power BI</span><span>Tableau</span><span>Matplotlib</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-header"><i class="fas fa-globe"></i> Web Development</div>
+        <div class="skill-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Node.js</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-header"><i class="fas fa-database"></i> Databases</div>
+        <div class="skill-tags">
+          <span>MySQL</span><span>MongoDB</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-header"><i class="fas fa-tools"></i> Tools</div>
+        <div class="skill-tags">
+          <span>Git</span><span>GitHub</span><span>VS Code</span><span>Jupyter</span><span>Google Colab</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-header"><i class="fas fa-lightbulb"></i> Core Concepts</div>
+        <div class="skill-tags">
+          <span>DSA</span><span>OOPS</span><span>Dynamic Programming</span><span>Parallel Computing</span><span>HPC</span><span>Agile</span><span>Scrum</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section projects-section" id="projects">
+    <div class="section-header">
+      <span class="section-label">What I've Built</span>
+      <h2 class="section-title">Projects</h2>
+    </div>
+    <div class="projects-grid">
+
+      <!-- Timeless Treasure -->
+      <div class="project-card">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&q=80&fit=crop" alt="Timeless Treasure – Jewelry eCommerce" loading="lazy" />
+          <div class="project-overlay">
+            <div class="project-category">Web Development</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3>Timeless Treasure</h3>
+          <p class="project-sub">Jewelry eCommerce Web Application</p>
+          <p class="project-desc">Developed a responsive eCommerce website with Add-to-Cart and Order Tracking functionality. Improved user experience through structured UI workflows and navigation.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/SHRYITHA/TIMELESS-TRESSURES-HCI" target="_blank" class="project-btn"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mandi Mitra
+      <div class="project-card">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=600&q=80&fit=crop" alt="Mandi Mitra – Agriculture App" loading="lazy" />
+          <div class="project-overlay">
+            <div class="project-category">Smart Agriculture</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3>Mandi Mitra</h3>
+          <p class="project-sub">Agriculture Web Application</p>
+          <p class="project-desc">Built a platform connecting farmers and customers with secure authentication features. Enabled product listing, browsing, and purchasing functionalities with a responsive interface.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Shryitha/mandi-mitra" target="_blank" class="project-btn"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- WattWise -->
+      <div class="project-card">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80&fit=crop" alt="WattWise – Energy Forecasting" loading="lazy" />
+          <div class="project-overlay">
+            <div class="project-category">High Performance Computing</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3>WattWise</h3>
+          <p class="project-sub">HPC-Based Energy Forecasting System</p>
+          <p class="project-desc">Developed prediction models using Python for energy consumption forecasting. Applied parallel computing techniques for faster data processing and managed large datasets to generate accurate analytical insights.</p>
+          <div class="project-tags">
+            <span>Python</span><span>HPC</span><span>Machine Learning</span><span>Parallel Computing</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/shryithasuddala/wattwise" target="_blank" class="project-btn"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trip Tailor -->
+      <div class="project-card">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&q=80&fit=crop" alt="Trip Tailor – AI Travel Planner" loading="lazy" />
+          <div class="project-overlay">
+            <div class="project-category">Artificial Intelligence</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3>Trip Tailor</h3>
+          <p class="project-sub">AI-Based Travel Planning System</p>
+          <p class="project-desc">Developed a web-based travel planner with dynamic itinerary generation based on user preferences. Designed efficient data storage and retrieval mechanisms for managing user trips and notes.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>MongoDB</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Shryitha/trip-tailor" target="_blank" class="project-btn"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section class="section certs-section" id="certifications">
+    <div class="section-header">
+      <span class="section-label">What I've Earned</span>
+      <h2 class="section-title">Certifications</h2>
+    </div>
+    <div class="certs-grid">
+
+      <!-- Microsoft Azure AI-900 -->
+      <div class="cert-card">
+        <div class="cert-badge-wrap">
+          <img
+            src="https://images.credly.com/images/4136ced8-75d5-4afb-8677-40b6236e2672/azure-ai-fundamentals-600x600.png"
+            alt="Microsoft Certified: Azure AI Fundamentals Badge"
+            class="cert-badge-img"
+            loading="lazy"
+          />
+        </div>
+        <div class="cert-body">
+          <span class="cert-issuer"><i class="fab fa-microsoft"></i> Microsoft</span>
+          <h3>Azure AI Fundamentals (AI-900)</h3>
+          <p class="cert-desc">Demonstrated foundational knowledge of machine learning and AI concepts and related Microsoft Azure services.</p>
+          <div class="cert-skills">
+            <span>Azure AI</span><span>Machine Learning</span><span>Cognitive Services</span>
+          </div>
+          <a href="https://drive.google.com/file/d/1qxmblv63LszvozCiMunoJ-3ifPDb2Ehw/view?usp=sharing" class="cert-btn" target="_blank"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-badge-wrap">
+          <img
+            src="https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+            alt="AWS Certified Cloud Practitioner Badge"
+            class="cert-badge-img"
+            loading="lazy"
+          />
+        </div>
+        <div class="cert-body">
+          <span class="cert-issuer"><i class="fab fa-aws"></i> Amazon Web Services</span>
+          <h3>AWS Certified Cloud Practitioner</h3>
+          <p class="cert-desc">Demonstrated foundational understanding of AWS Cloud services, IT infrastructure, cloud fluency and core AWS concepts.</p>
+          <div class="cert-skills">
+            <span>AWS Cloud</span><span>Cloud Computing</span><span>Cloud Services</span>
+          </div>
+          <a href="https://drive.google.com/file/d/1r-pL9EwgOcaRZgMUkL1jCfOHI2Ajt1E1/view?usp=drive_link" class="cert-btn" target="_blank"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+
+  <!-- ===== ACHIEVEMENTS ===== -->
+  <section class="section achievements-section" id="achievements">
+    <div class="section-header">
+      <span class="section-label">Recognition</span>
+      <h2 class="section-title">Achievements</h2>
+    </div>
+    <div class="achievements-grid">
+
+      <div class="achievement-card">
+        <div class="achievement-icon">
+          <i class="fas fa-certificate"></i>
+        </div>
+        <div class="achievement-body">
+          <div class="achievement-tag">Patent</div>
+          <h3>IoT-Based Smart Medicine Bottle – Patent</h3>
+          <p>Proposed an IoT-based solution to ensure safe and timely medicine intake. Designed system concept for dosage measurement, user authentication, and automated dispensing. Planned integration of real-time monitoring via mobile/cloud platforms. Aimed to reduce missed doses and overdosing, especially for elderly patients.</p>
+          <a href="https://drive.google.com/file/d/1qfmEj9VOVh_5J4hSzknnYd3RyV2wv922/view?usp=sharing" class="cert-btn" target="_blank"><i class="fas fa-external-link-alt"></i> View Patent</a>
+        </div>
+      </div>
+
+      <div class="achievement-card">
+        <div class="achievement-icon">
+          <i class="fas fa-trophy"></i>
+        </div>
+        <div class="achievement-body">
+          <div class="achievement-tag">Academic</div>
+          <h3>Multiple Academic Projects</h3>
+          <p>Developed multiple academic projects spanning web development, data analytics, and HPC systems — demonstrating consistent technical depth and breadth across different domains of computer science.</p>
+        </div>
+      </div>
+
+      <div class="achievement-card">
+        <div class="achievement-icon">
+          <i class="fas fa-code"></i>
+        </div>
+        <div class="achievement-body">
+          <div class="achievement-tag">Problem Solving</div>
+          <h3>LeetCode Problem Solving</h3>
+          <p>Solved DSA and coding problems on LeetCode with strong focus on problem-solving skills and algorithmic thinking — building a solid foundation for software engineering interviews and competitive programming.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Internships inside achievements for completeness -->
+    <div class="section-header" style="margin-top:4rem;" id="internships">
+      <span class="section-label">Experience</span>
+      <h2 class="section-title" style="font-size:clamp(1.6rem,3vw,2.4rem);">Internships</h2>
+    </div>
+    <div class="internship-grid">
+      <div class="internship-card">
+        <div class="internship-header">
+          <div class="internship-icon"><i class="fas fa-laptop-code"></i></div>
+          <div>
+            <h3>Web Full Stack Developer Virtual Internship</h3>
+            <span class="internship-org">AICTE (EduSkills)</span>
+          </div>
+          <span class="internship-date">Oct 2024 – Dec 2024</span>
+        </div>
+        <ul>
+          <li>Completed a 10-week internship in full stack web development</li>
+          <li>Developed skills in HTML, CSS, JavaScript, and responsive web design</li>
+          <li>Worked on frontend and backend concepts for building dynamic web applications</li>
+          <li>Gained hands-on experience in web application structure, deployment, and optimization</li>
+        </ul>
+      </div>
+      <div class="internship-card">
+        <div class="internship-header">
+          <div class="internship-icon"><i class="fas fa-robot"></i></div>
+          <div>
+            <h3>Gen AI Virtual Internship</h3>
+            <span class="internship-org">AICTE (EduSkills, AWS Academy)</span>
+          </div>
+          <span class="internship-date">Jan 2026 – Mar 2026</span>
+        </div>
+        <ul>
+          <li>Completed internship in Generative AI and LLM concepts</li>
+          <li>Learned prompt engineering and AI workflows</li>
+          <li>Worked with AI tools and cloud platforms</li>
+          <li>Explored real-world AI applications and use cases</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-name">Shryitha Suddala</p>
+      <p class="footer-tagline">Open to opportunities · Let's build something great together</p>
+      <a href="mailto:shryithasuddala@gmail.com" class="footer-email">shryithasuddala@gmail.com</a>
+      <div class="footer-socials">
+        <a href="https://wa.me/919059724872" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://linkedin.com/in/shryitha-suddala" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/shryitha" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://leetcode.com/shryitha" target="_blank" title="LeetCode">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+            <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
+          </svg>
+        </a>
+      </div>
+      <p class="footer-copy">© 2026 Shryitha Suddala · All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <a href="#home" class="back-to-top" id="backToTop" title="Back to top"><i class="fas fa-arrow-up"></i></a>
+
+  <script src="script.js"></script>
+</body>
+</html>
